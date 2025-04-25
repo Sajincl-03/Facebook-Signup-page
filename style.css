@@ -1,0 +1,140 @@
+body,
+h1,p{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-div {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#logo {
+    color: #0866ff;
+    font-size: 56px;
+    padding:15px 0px;
+}
+
+.signup-form{
+    background-color: white;
+    width: 432px;
+    border-radius: 8px;
+   
+    
+}
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-fields {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input,select {
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+.half-width{
+    width: 48%;
+    display: flex;
+   
+}
+.full-width {
+    width: 100%;
+    display: flex;
+    
+}
+
+label {
+    color: #606770;
+    font-size: 12px;
+    padding-bottom: 10px;
+   
+}
+
+.dob-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.quat-width {
+    width: 31.33%;
+    display: flex;
+    
+}
+.radio-btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding:12px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio-label {
+    padding-bottom: 0;
+    font-size:15px;
+}
+
+.radio-input {
+    margin: 0;
+    width: auto;
+   
+}
+small {
+    font-size: 11.5px;
+    padding-top: 10px;
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-div {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.signup-btn {
+    border: 0;
+    font-size: 18px;
+    font-weight:500;
+    border-radius: 5px;
+    color:white ;
+    padding: 10px 55px;
+    background-color: #00a400;
+   
+}
+
+.account-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    
+}
+
+
